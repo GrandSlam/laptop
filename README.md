@@ -31,22 +31,19 @@ Install
 
 Read, then run the script:
 
-    bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac) 2>&1 | tee ~/laptop.log
+    bash <(curl -s https://raw.githubusercontent.com/grandslam/laptop/master/mac) 2>&1 | tee ~/laptop.log
 
 ### Linux
 
 Read, then run the script:
 
-    bash <(wget -qO- https://raw.githubusercontent.com/thoughtbot/laptop/master/linux) 2>&1 | tee ~/laptop.log
+    bash <(wget -qO- https://raw.githubusercontent.com/grandslam/laptop/master/linux) 2>&1 | tee ~/laptop.log
 
 Debugging
 ---------
 
 Your last Laptop run will be saved to `~/laptop.log`. Read through it to see if
-you can debug the issue yourself. If not, copy the lines where the script
-failed into a [new GitHub
-Issue](https://github.com/thoughtbot/laptop/issues/new) for us. Or, attach the
-whole log file as an attachment.
+you can debug the issue yourself.
 
 What it sets up
 ---------------
@@ -167,3 +164,4 @@ License
 
 Laptop is © 2011-2014 thoughtbot, inc. It is free software, and may be
 redistributed under the terms specified in the LICENSE file.
+            
